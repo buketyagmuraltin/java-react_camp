@@ -1,7 +1,7 @@
 package userInstructorStudent;
 
 public class Student extends User{
-	int percentageOfCompletion;
+	private int percentageOfCompletion;
 	
 	public Student() {
 		

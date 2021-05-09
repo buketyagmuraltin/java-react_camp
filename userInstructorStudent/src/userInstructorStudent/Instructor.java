@@ -1,7 +1,7 @@
 package userInstructorStudent;
 
 public class Instructor extends User {
-	String courseName;
+	private String courseName;
 
 	public Instructor() {
 		

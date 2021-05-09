@@ -1,11 +1,11 @@
 package userInstructorStudent;
 
 public class User {
-	int id;
-	String firstName;
-	String lastName;
-	String email;
-	String password;
+	private int id;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String password;
 	
 	public User() {
 		
