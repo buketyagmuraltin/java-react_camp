@@ -22,6 +22,9 @@ public class Main {
 		
 		InstructorManager instructorManager = new InstructorManager();
 		instructorManager.gradeHW(firstInstructor, 80);
+		
+		firstStudent.setPercentageOfCompletion(10);
+		System.out.println("%" +firstStudent.getPercentageOfCompletion()+ " tamamlandý.");
 	
 	}
 }
